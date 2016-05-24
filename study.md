@@ -31,14 +31,20 @@ JSON only looks like an object. It is not an object.
 
 As it makes sense to you please write the following in JSON format:
 
--  Jason has many things...
+- Jason has many things...
 - A Cat named Mr.Kitty
 - Two roomates named Dave and Miller
 - A Love of the Red Sox, Patriots and Bruins
 - Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+[
+  {"- Jason has many things...":1},
+  {"- A Cat named Mr.Kitty":2},
+  {"- Two roomates named Dave and Miller":3},
+  {"- A Love of the Red Sox, Patriots and Bruins":4},
+  {"- Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road":5}
+]
 ```
 
 ...I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +52,15 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+[
+  {"- Jason has many things...":1},
+  {"- A Cat named Mr.Kitty":2},
+  {"- Two roomates named Dave and Miller":3},
+  {"- A Love of the Red Sox, Patriots and Bruins":4},
+  {"- Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road":5}
+  {"- two goldfish, one named Bob (he's red) and the other named Mr.MagicNibbles (yellow) and bites a bit":6}
+]
+
 ```
 
 ## JSON Methods
@@ -54,7 +68,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+jason can not have methods
 ```
 
 ## JSON Comments
@@ -62,5 +76,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+jason can not have commets
 ```
