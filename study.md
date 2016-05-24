@@ -76,5 +76,5 @@ jason can not have methods
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-jason can not have commets
+jason can not have comments
 ```
